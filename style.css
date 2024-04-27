@@ -1,0 +1,35 @@
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 200px;
+  transition: all 1s;
+}
+
+
+.smallcontainer{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  align-items: flex-start; /* 컨텐츠를 상단으로 정렬 */
+  transition: all 1s;
+
+}
+
+.card-textarea{
+  width: 156px;
+  height: auto; /* 자동으로 높이를 조정하도록 설정 */
+  overflow: hidden; /* 텍스트가 카드 영역을 넘어가면 숨기기 */
+  resize: none; /* 리사이즈 비활성화 */
+  border: none; /* 테두리 제거 */
+  outline: none; /* 아웃라인 제거 */
+  padding: 10px; /* 내부 여백 설정 */
+  box-sizing: border-box; /* 내부 여백을 포함한 크기로 설정 */
+  border: 1px solid black;
+}
+
+
