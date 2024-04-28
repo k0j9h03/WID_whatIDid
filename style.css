@@ -22,6 +22,8 @@
 
 .card-textarea{
   width: 156px;
+  background-color: black;
+  border-radius: 10px;
   height: auto; /* 자동으로 높이를 조정하도록 설정 */
   overflow: hidden; /* 텍스트가 카드 영역을 넘어가면 숨기기 */
   resize: none; /* 리사이즈 비활성화 */
@@ -30,6 +32,7 @@
   padding: 10px; /* 내부 여백 설정 */
   box-sizing: border-box; /* 내부 여백을 포함한 크기로 설정 */
   border: 1px solid black;
+  color: white;
 }
 
 
