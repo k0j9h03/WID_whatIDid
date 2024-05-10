@@ -8,6 +8,14 @@
   transition: all 1s;
 }
 
+.container2{
+  position: absolute;
+  width:  100vw;
+  height: 100vh;
+  background-color: black;
+
+}
+
 
 .smallcontainer{
   position: absolute;
